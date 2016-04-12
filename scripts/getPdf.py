@@ -139,4 +139,4 @@ def getCurrentTitles():
 	lst = os.listdir('../data/articleData/pdfs/')
 	lst = [x.replace('.pdf','') for x in lst]
 	return lst
-print getArticles('neural networks', max_results=2)
+
