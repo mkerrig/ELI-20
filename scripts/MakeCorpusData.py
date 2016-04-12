@@ -3,7 +3,7 @@ import logging, os, bz2
 from gensim import corpora
 from gensim.corpora import mmcorpus,MmCorpus
 from gensim.models import LogEntropyModel, TfidfModel
-from gensim.similarities import Similarity\
+from gensim.similarities import Similarity
 from unidecode import unidecode
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
 level=logging.INFO)
