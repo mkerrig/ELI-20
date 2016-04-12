@@ -17,3 +17,11 @@ Take those Wikipedia articles and query it against resources such as college tex
 ###Step 4:
 
 Repeat Step 3 with the returned results from every given step and keep projecting into less and less spaces until a given user is comfortable with the reading material at which point the user works their way up the material until they have a full understanding of whats going on in the original article.
+
+
+You will need to download the following libraries:
+Gensim, unidecode,  and slate (pdf parsing) 
+
+I also recommend accelerating ATLAS/BLAS with fortran bindings to speed up making all the corpus data.
+
+
