@@ -10,6 +10,10 @@ Upload a research article in PDF form to the web app, the web app frontend saves
 
 Take the Log-Entropy TF-IDF vector, and query it against a gensim Similairty index of Wikipedia (This is a sharded form of the Wikipedia corpus in Log-Entropy form). This returns the top 10 most relevant Wikipedia articles. These articles (hopefully/usually from my experience) are the more basic concepts needed to understand the original article so for example if given an article about Growing Neural Gas, it will possibley return pages about Self-Organizing Maps, Neural Networks, Neural gas, Matrices, Unsupervised Learning, Clustering Algorithms etc. 
 
-#Step 3: Take those Wikipedia articles and query it against resources such as college text books to further return the most relevant pages or documents from those corpi.
+#Step 3: 
 
-#Step 4: Repeat Step 3 with the returned results from every given step and keep projecting into less and less spaces until a given user is comfortable with the reading material at which point the user works their way up the material until they have a full understanding of whats going on in the original article.
+Take those Wikipedia articles and query it against resources such as college text books to further return the most relevant pages or documents from those corpi.
+
+#Step 4:
+
+Repeat Step 3 with the returned results from every given step and keep projecting into less and less spaces until a given user is comfortable with the reading material at which point the user works their way up the material until they have a full understanding of whats going on in the original article.
